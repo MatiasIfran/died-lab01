@@ -30,7 +30,7 @@ public class Registro {
 	public void imprimir() {
 		System.out.println("Temperaturas registradas en: " + this.getCiudad());
 		for(int i=0; i<historico.length; i++) {
-			System.out.println("El Dia " + i + " se registro " + historico[i]); // REVISAR 
+			System.out.println("El Dia " + i + " se registro " + historico[i]);  
 		}
 	}
 	
